@@ -3,9 +3,14 @@ body {
     padding: 24px;
   }
   .gallery-home{
+    display: inline-block;
     margin-bottom: 20px;
-    display: block;
+    margin-right: auto;
+    margin-left: 30px;
   }
+  .gallery-home:hover {
+    background-color: #e0e0e0;}
+
   .gallery {
     display: flex;
     flex-wrap: wrap;
